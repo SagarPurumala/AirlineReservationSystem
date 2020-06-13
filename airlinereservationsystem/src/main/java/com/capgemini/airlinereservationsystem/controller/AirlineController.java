@@ -1,0 +1,10 @@
+package com.capgemini.airlinereservationsystem.controller;
+
+public class AirlineController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

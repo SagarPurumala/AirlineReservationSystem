@@ -1,0 +1,5 @@
+package com.capgemini.airlinereservationsystem.repository;
+
+public class AirlineRepository {
+
+}

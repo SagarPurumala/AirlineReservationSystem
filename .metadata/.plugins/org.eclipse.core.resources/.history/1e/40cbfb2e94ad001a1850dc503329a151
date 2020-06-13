@@ -1,0 +1,12 @@
+package com.capgemini.airlinereservationsystem.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AirlineRepository {
+
+	public static final List<AdminInfo> ADMIN_INFOS = new ArrayList<AdminInfo>();
+	public static final List<UserInfo> USER_INFOS = new ArrayList<UserInfo>();
+	public static final List<BookDetails> BOOK_DETAILS = new ArrayList<BookDetails>();
+	public static final List<RequestInfo> REQUEST_INFOS = new ArrayList<RequestInfo>();
+}
