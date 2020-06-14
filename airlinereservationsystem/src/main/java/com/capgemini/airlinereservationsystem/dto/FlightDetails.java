@@ -6,7 +6,7 @@ public class FlightDetails {
 	private String source;
 	private String destination;
 	private int noofseatsavailable;
-	
+
 	public FlightDetails(int flightId, String flightName, String source, String destination, int noofseatsavailable) {
 		super();
 		this.flightId = flightId;
@@ -15,33 +15,43 @@ public class FlightDetails {
 		this.destination = destination;
 		this.noofseatsavailable = noofseatsavailable;
 	}
+
 	public int getFlightId() {
 		return flightId;
 	}
+
 	public void setFlightId(int flightId) {
 		this.flightId = flightId;
 	}
+
 	public String getFlightName() {
 		return flightName;
 	}
+
 	public void setFlightName(String flightName) {
 		this.flightName = flightName;
 	}
+
 	public String getSource() {
 		return source;
 	}
+
 	public void setSource(String source) {
 		this.source = source;
 	}
+
 	public String getDestination() {
 		return destination;
 	}
+
 	public void setDestination(String destination) {
 		this.destination = destination;
 	}
+
 	public int isNoofseatsavailable() {
 		return noofseatsavailable;
 	}
+
 	public void setNoofseatsavailable(int noofseatsavailable) {
 		this.noofseatsavailable = noofseatsavailable;
 	}

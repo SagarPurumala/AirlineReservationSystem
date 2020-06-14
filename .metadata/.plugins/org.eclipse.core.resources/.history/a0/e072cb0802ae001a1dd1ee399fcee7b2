@@ -1,0 +1,21 @@
+package com.capgemini.airlinereservationsystem.dao;
+
+import java.util.ArrayList;
+
+import com.capgemini.airlinereservationsystem.dto.FlightDetails;
+
+public interface AdminDAO {
+	
+	boolean registerLibrarian(LibrarianInfo librarian);
+	LibrarianInfo authenticateLibrarian(String email,String password);
+	boolean addBook(BooksInfo book);
+	boolean removeBook(int id);
+	ArrayList<FlightDetails> searchFlightByName(String flightname);
+	ArrayList<FlightDetails> searchFlightBySource(String source);
+	ArrayList<FlightDetails> searchFlightByDestination(String destination);
+	ArrayList<FlightDetails> getBooksInfo();
+	List<StudentInfo> showStudents();
+	List<BookRequestInfo> showRequests();
+	boolean bookIssue(StudentInfo student,BooksInfo book);
+	boolean isBookReceived(StudentInfo student,BooksInfo book);
+}

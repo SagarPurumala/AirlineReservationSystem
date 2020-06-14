@@ -1,0 +1,22 @@
+package com.capgemini.airlinereservationsystem.dao;
+
+import com.capgemini.airlinereservationsystem.dto.UserInfo;
+
+public interface UserDAO {
+boolean registerStudent(StudentInfo student);
+	
+	UserInfo authenticateUser(String email,String password);
+	
+	BookRequestInfo bookRequest(StudentInfo student, BooksInfo book);
+	
+    BookRequestInfo bookReturn(StudentInfo student, BooksInfo book);
+	
+	ArrayList<BooksInfo> searchBookByTitle(String bookName);
+	
+	ArrayList<BooksInfo> searchBookByAuthor(String author);
+	
+	ArrayList<BooksInfo> searchBookByCategory(String category);
+	
+	ArrayList<BooksInfo> getBooksInfo();
+
+}
