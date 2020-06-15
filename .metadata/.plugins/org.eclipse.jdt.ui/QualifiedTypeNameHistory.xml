@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.dto.AdminInfo"/>
 <fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.dto.UserInfo"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.dto.FlightDetails"/>
-<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.service.UserService"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.dao.UserDAOImple"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.dao.UserDAO"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.dao.AdminDAO"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.dao.AdminDAOImple"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.exception.ARSException"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.repository.AirlineRepository"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.service.AdminService"/>
+<fullyQualifiedTypeName name="com.capgemini.airlinereservationsystem.service.AdminServiceImple"/>
 </qualifiedTypeNameHistroy>

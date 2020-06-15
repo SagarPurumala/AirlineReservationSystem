@@ -56,7 +56,7 @@ public class AdminServiceImple implements AdminService{
 	@Override
 	public ArrayList<FlightDetails> getFlightDetails() {
 		// TODO Auto-generated method stub
-		return null;
+		return dao.getFlightDetails();
 	}
 
 	@Override

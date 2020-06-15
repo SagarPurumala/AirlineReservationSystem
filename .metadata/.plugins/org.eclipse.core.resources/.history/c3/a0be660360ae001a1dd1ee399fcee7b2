@@ -1,0 +1,14 @@
+package com.capgemini.airlinereservationsystem.controller;
+
+import com.capgemini.airlinereservationsystem.service.AdminService;
+import com.capgemini.airlinereservationsystem.service.AdminServiceImple;
+
+public class AirlineController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         AdminService adminService=new AdminServiceImple();
+         System.out.println(adminService.getFlightDetails());
+	}
+
+}

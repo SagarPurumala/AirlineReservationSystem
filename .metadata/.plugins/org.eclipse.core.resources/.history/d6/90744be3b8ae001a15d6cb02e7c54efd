@@ -1,0 +1,36 @@
+package com.capgemini.airlinereservationsystem.controller;
+
+import java.util.Scanner;
+
+import com.capgemini.airlinereservationsystem.repository.AirlineRepository;
+
+public class SubAirlineMain {
+	public static void airlineOperations() {
+
+		AirlineRepository.addToDataBase();
+
+		boolean flag = false;
+		int checkId = 0;
+		String checkName = null;
+		long checkMobile = 0;
+		String checkEmail = null;
+		String checkPassword = null;
+		int flightId = 0;
+		String flightName = null;
+		String flightSource = null;
+		String flightDestination = null;
+	
+
+		//Validation validation = new Validation();
+
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
+		do {
+			try {
+				System.out.println("<----------------------<<< WELCOME TO AIRLINE RESERVATION SYSTEM >>>--------------------->");
+				System.out.println("[1] ADMIN PAGE");
+				System.out.println("[2] USER PAGE");
+				System.out.println("<--------------------------------------------------------------------->");
+				int i = scanner.nextInt();
+	}
+}
